@@ -10,10 +10,10 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+SESSION = environ.get('SESSION', 'MoviesHubiBot')
+API_ID = int(environ.get('API_ID', '16176000'))
+API_HASH = environ.get('API_HASH', 'e6eb30a59ec0a52786cb2d0509819fc2')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7534488148:AAE4ZSEhBXnqJ9gmSnZWAnrpjKDPIATwGAI")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
